@@ -12,7 +12,7 @@ module.exports = {
                 res.status(200).json({ users });
             }
         } catch (error) {
-            res.status(400).res.json({ error });
+            res.status(400).json({ error });
         }
 
     },
@@ -32,7 +32,7 @@ module.exports = {
             }
 
         } catch (error) {
-            res.status(400).res.json({ error });
+            res.status(400).json({ error });
         }
     },
 
@@ -53,7 +53,7 @@ module.exports = {
             }
 
         } catch (error) {
-            res.status(400).res.json({ error });
+            res.status(400).json({ error });
         }
     },
 
